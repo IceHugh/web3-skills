@@ -1,0 +1,132 @@
+{
+  "name": "web3-skills",
+  "owner": {
+    "name": "icehugh",
+    "email": "icehugh@example.com",
+    "url": "https://github.com/icehugh"
+  },
+  "metadata": {
+    "description": "专业的Web3和AI编程技能插件市场，提供智能合约开发、区块链工具集成、去中心化存储和AI辅助编程功能，专为Web3开发者打造的高效生产力工具集",
+    "version": "1.3.0",
+    "license": "MIT",
+    "keywords": [
+      "web3",
+      "blockchain",
+      "ai-programming",
+      "smart-contracts",
+      "solidity",
+      "defi",
+      "nft",
+      "cryptocurrency",
+      "development-tools",
+      "productivity",
+      "walrus",
+      "sui",
+      "decentralized-storage",
+      "blob-storage"
+    ],
+    "homepage": "https://github.com/icehugh/web3-skills",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/icehugh/web3-skills.git"
+    },
+    "bugs": {
+      "url": "https://github.com/icehugh/web3-skills/issues"
+    },
+    "categories": [
+      {
+        "name": "web3-development",
+        "description": "Web3和区块链开发工具"
+      },
+      {
+        "name": "smart-contracts",
+        "description": "智能合约开发和审计工具"
+      },
+      {
+        "name": "solidity-development",
+        "description": "Solidity智能合约开发工具和模板"
+      },
+      {
+        "name": "rust-development",
+        "description": "Rust智能合约开发（Solana、Near、Polkadot等）"
+      },
+      {
+        "name": "move-development",
+        "description": "Move语言开发工具（Sui、Aptos等）"
+      },
+      {
+        "name": "defi",
+        "description": "去中心化金融协议和工具"
+      },
+      {
+        "name": "nft-digital-assets",
+        "description": "NFT和数字资产开发工具"
+      },
+      {
+        "name": "blockchain-infrastructure",
+        "description": "区块链基础设施和节点工具"
+      },
+      {
+        "name": "decentralized-storage",
+        "description": "去中心化存储和数据管理"
+      },
+      {
+        "name": "cross-chain-bridges",
+        "description": "跨链桥和多链生态工具"
+      },
+      {
+        "name": "web3-security",
+        "description": "Web3安全审计和防护工具"
+      },
+      {
+        "name": "dao-governance",
+        "description": "DAO治理和社区管理工具"
+      }
+    ]
+  },
+  "plugins": [
+    {
+      "name": "walrus-ts",
+      "source": "./plugins/walrus-ts",
+      "description": "Walrus TypeScript SDK 专业化 AI 技能集，提供代码生成、错误诊断、监控分析和性能优化功能，专为 Walrus 去中心化存储应用开发者打造",
+      "version": "1.0.0",
+      "author": {
+        "name": "icehugh",
+        "url": "https://github.com/icehugh"
+      },
+      "homepage": "https://github.com/icehugh/web3-skills/tree/main/plugins/walrus-ts",
+      "repository": "https://github.com/icehugh/web3-skills.git",
+      "license": "MIT",
+      "keywords": [
+        "sui",
+        "walrus",
+        "decentralized-storage",
+        "blob-storage",
+        "typescript",
+        "ai-programming",
+        "code-generation",
+        "error-diagnosis",
+        "performance-monitoring",
+        "optimization",
+        "web3-development"
+      ],
+      "category": "decentralized-storage",
+      "strict": false,
+      "skills": [
+        "./skills/walrus-code-generator.md",
+        "./skills/walrus-debugger.md",
+        "./skills/walrus-monitor.md",
+        "./skills/walrus-performance-optimizer.md"
+      ],
+      "tags": ["sui", "walrus", "storage", "typescript", "ai", "web3"],
+      "features": [
+        "自动代码生成与模板",
+        "智能错误诊断与修复",
+        "实时监控与性能分析",
+        "存储成本优化建议",
+        "多框架集成支持",
+        "最佳实践指导"
+      ]
+    }
+  ]
+}
