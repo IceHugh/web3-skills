@@ -118,15 +118,7 @@
         "./skills/walrus-monitor.md",
         "./skills/walrus-performance-optimizer.md"
       ],
-      "tags": ["sui", "walrus", "storage", "typescript", "ai", "web3"],
-      "features": [
-        "自动代码生成与模板",
-        "智能错误诊断与修复",
-        "实时监控与性能分析",
-        "存储成本优化建议",
-        "多框架集成支持",
-        "最佳实践指导"
-      ]
+      "tags": ["sui", "walrus", "storage", "typescript", "ai", "web3"]
     }
   ]
 }
